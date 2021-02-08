@@ -49,7 +49,7 @@ function doSpam(element) {
     }
     element.innerHTML = 'STOP';
     message = input.innerHTML;
-    var interval = parseInt (prompt('Please enter spam-interval:', '500'));
+    var interval = parseInt (prompt('Masukan Jumlah Spam Chat:', '500'));
     repeatingSpamFunction = window.setInterval(function(){
       sendMessage();
     }, interval);
